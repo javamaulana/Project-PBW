@@ -1,8 +1,5 @@
 <?php
-/**
- * Menghitung Suku ke-n (Un) Aritmetika
- * Rumus: Un = a + (n-1)b
- */
+
 function hitung_un($a, $b, $n) {
     return $a + ($n - 1) * $b;
 }
